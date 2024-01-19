@@ -1,0 +1,95 @@
+		---List----
+append()	Adds an element at the end of the list
+clear()	Removes all the elements from the list
+copy()	Returns a copy of the list
+count()	Returns the number of elements with the specified value
+extend()	Add the elements of a list (or any iterable), to the end of the current list
+index()	Returns the index of the first element with the specified value
+insert()	Adds an element at the specified position
+pop()	Removes the element at the specified position
+remove()	Removes the item with the specified value
+reverse()	Reverses the order of the list
+sort()	Sorts the lis		
+
+
+
+		---time---
+import datetime
+x = datetime.datetime(2018, 6, 1)
+print(x.strftime("%B"))
+
+Directive	Description	
+%a	Weekday, short version    	Wed	
+%A	Weekday, full version	        Wednesday	
+%w	Weekday as a number 0-6, 0 is Sunday	3	
+%d	Day of month 01-31	31	
+%b	Month name, short version	Dec	
+%B	Month name, full version	December	
+%m	Month as a number 01-12	12	
+%y	Year, short version, without century	18	
+%Y	Year, full version	      2018	
+%H	Hour 00-23	17	
+%I	Hour 00-12	05	
+%p	AM/PM	PM	
+%M	Minute 00-59	41	
+%S	Second 00-59	08	
+%f	Microsecond 000000-999999	548513	
+%z	UTC offset	+0100	
+%Z	Timezone	CST	
+%j	Day number of year 001-366	365	
+%U	Week number of year, Sunday as the first day of week, 00-53	52	
+%W	Week number of year, Monday as the first day of week, 00-53	52	
+%c	Local version of date and time	Mon Dec 31 17:41:00 2018	
+%x	Local version of date	12/31/18	
+%X	Local version of time	17:41:00	
+%%	A % character	%
+
+ 		----Array Methods----
+Python has a set of built-in methods that you can use on lists/arrays.
+
+Method	Description
+append()	Adds an element at the end of the list
+clear()	Removes all the elements from the list
+copy()	Returns a copy of the list
+count()	Returns the number of elements with the specified value
+extend()	Add the elements of a list (or any iterable), to the end of the current list
+index()	Returns the index of the first element with the specified value
+insert()	Adds an element at the specified position
+pop()	Removes the element at the specified position
+remove()	Removes the first item with the specified value
+reverse()	Reverses the order of the list
+sort()	Sorts the list
+
+
+			------Inheritence----
+class Person:
+  def __init__(self, name, age):
+    self.name = name
+    self.age = age
+
+  def myfunc(self):
+    print("Hello my name is " + self.name)
+
+p1 = Person("John", 36)
+p1.myfunc()
+
+		----json module---
+data2 ={"set":"a well def",
+        "cars":["bmw","frari"],
+        "frige":("malik",123,"zain"),
+        "run":False
+	}
+a=json.dumps(data)
+print(a)
+When you convert from Python to JSON, Python objects are converted into the JSON (JavaScript) equivalent:
+
+Python	JSON
+dict	Object
+list	Array
+tuple	Array
+str	String
+int	Number
+float	Number
+True	true
+False	false
+None	null

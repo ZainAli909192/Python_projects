@@ -95,7 +95,7 @@ if __name__ == "__main__":
     # Use a dialog to securely input the master password
     root = tk.Tk()
     root.withdraw()
-    master_password = simpledialog.askstring("Password Manager", "Enter your master password:", show='*')
+    master_password = simpledialog.askstring("Password Manager", "Enter your master password to store it:", show='*')
 
     if master_password:
         password_manager_gui = PasswordManagerGUI(master_password)

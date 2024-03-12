@@ -70,7 +70,7 @@ class Person:
   def myfunc(self):
     print("Hello my name is " + self.name)
 
-p1 = Person("John", 36)
+p1 = Person("Ahmed Ali", 36)
 p1.myfunc()
 
 		----json module---

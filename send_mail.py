@@ -3,7 +3,7 @@ import smtplib as s
 ob=s.SMTP('smtp.gmail.com', 587)
 ob.ehlo()
 ob.starttls()
-ob.login('malikzain909192@gmail.com', 'xtgw gqtu kjev mmuq')
+# ob.login('malikzain909192@gmail.com', 'xtgw gqtu kjev mmuq')
 subject="Testing "
 body="Hi, myself Zain Ali. "
 message="subject:{}\n\n{}".format(subject,body)

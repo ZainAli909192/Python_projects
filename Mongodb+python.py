@@ -13,7 +13,7 @@ data_to_insert = {
     # Add more fields as needed
 }
 # Insert a single document
-inserted_doc = collection.insert_one(data_to_insert)
+# inserted_doc = collection.insert_one(data_to_insert)
 
 # - Read (Query):python
 

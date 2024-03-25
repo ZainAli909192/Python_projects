@@ -8,5 +8,5 @@ if __name__ == '__main__':
            title="** Take Rest **",
            message="Drink water",
            timeout=5)
-       time.sleep(20)
+       time.sleep(40)
        num=0

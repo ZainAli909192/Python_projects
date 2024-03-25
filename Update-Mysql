@@ -1,0 +1,36 @@
+import mysql.connector
+
+# Connect to the MySQL database
+try:
+    connection = mysql.connector.connect(
+        host='localhost',
+        user='your_username',
+        password='your_password',
+        database='your_database'
+    )
+    if connection.is_connected():
+        print('Connected to MySQL database')
+
+    # Define your SQL update query
+    query = "UPDATE your_table SET column1 = %s WHERE column2 = %s"
+
+    # Define the data to be updated
+    new_value = 'new_value'
+    condition_value = 'condition_value'
+    data = (new_value, condition_value)
+
+    # Execute the update query directly on the connection object
+    with connection:
+        with connection.cursor() as cursor:
+            cursor.execute(query, data)
+
+    print(f"{cursor.rowcount} row(s) updated successfully")
+
+except mysql.connector.Error as error:
+    print(f'Error while connecting to MySQL: {error}')
+
+finally:
+    # Close the connection
+    if 'connection' in locals() and connection.is_connected():
+        connection.close()
+        print('MySQL connection closed')

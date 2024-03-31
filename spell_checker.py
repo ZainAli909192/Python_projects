@@ -16,7 +16,7 @@ def main_window():
     win.geometry("500x400")
     win.resizable(False,False)
     win.config(bg="Light Blue")
-    win.title("Spell checker")
+    win.title("Spelling checker")
     
     label1=Label(win,text="Incorrect Spelling",bg="Light Blue", font=("Time New Roman",20,"bold"),fg="white")
     label1.place(x=20,y=20,height=50,width=300)

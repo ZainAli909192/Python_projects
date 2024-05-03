@@ -8,7 +8,7 @@ collection = db['Student_Info']
 
 # - Create (Insert): python
 data_to_insert = {
-    "name": "shaheer",
+    "name": "Ahemd19",
     "roll#": "19011598-124",
     # Add more fields as needed
 }
@@ -31,8 +31,8 @@ for doc in results:
 
 # - Update:python
 # Update a single document
-query = {"name": "shaheer"}
-new_values = {"$set": {"roll#": "19011598-123"}}
+query = {"name": "Ahmed Ali"}
+new_values = {"$set": {"roll#": "19011598-121"}}
 collection.update_one(query, new_values)
 
 

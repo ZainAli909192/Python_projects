@@ -3,7 +3,7 @@ import mysql.connector
 # Connect to the MySQL database
 try:
     connection = mysql.connector.connect(
-        host='localhost',
+        host='localhost', # for testing purpose host will be localhost like xamp etc
         user='username',
         password='password',
         database='your_database'

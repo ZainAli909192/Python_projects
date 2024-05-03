@@ -4,7 +4,7 @@ from pymongo import MongoClient
 # Replace 'your_mongodb_uri' with your MongoDB URI (e.g., 'mongodb://localhost:27017/')
 client = MongoClient('mongodb://localhost:27017/')
 db = client['School']
-collection = db['Student_Info']
+collection = db['Student_Info']    # table name
 
 # - Create (Insert): python
 data_to_insert = {

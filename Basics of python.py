@@ -6,12 +6,12 @@ dict={"zain":"ali",
 # key=input("Enter key: ")
 # print(dict[key])
 
-# dict.clear()
-# dic=dict.keys()         #to get keys of dictionary
-# dic=dict.values()       #to get values of dictionary
-# dict2=dict.copy()       #to copy one dictionary to other
-# print(dict2.items())
-# print(type(dict))
+dict.clear()
+dic=dict.keys()         #to get keys of dictionary
+dic=dict.values()       #to get values of dictionary
+dict2=dict.copy()       #to copy one dictionary to other
+print(dict2.items())
+print(type(dict))
 
 # import time
 # # x = time.asctime(time.localtime(time.time()))
@@ -29,11 +29,11 @@ list=["zain","ali"]
 # list.sort()
 # print(list);
 
-# if list.__contains__("zain"):
-#     print(list)
-# print(list.__delitem__(0))
-# print(list)
-# print(type(list))
+if list.__contains__("zain"):
+    print(list)
+print(list.__delitem__(0))
+print(list)
+print(type(list))
 
 # tuple
 dict=("Ali","Awon")

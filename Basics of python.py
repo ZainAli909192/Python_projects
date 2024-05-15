@@ -41,13 +41,13 @@ dict=("Ali","Awon")
 # print(type(dict))
 
             # ---try catch----
-# try:
-#   x=["malik","zain"]
-#   print(x[7])
-# except Exception as e:
-#   print("Error: ",e)
-# finally:
-#   print("The 'try except' is finished")
+try:
+  x=["malik","zain"]
+  print(x[7])
+except Exception as e:
+  print("Error: ",e)
+finally:
+  print("The 'try except' is finished")
 
             # ---join function--
 # Syntax: variable=" through which u want to jon? e.g and or comma".join(list/dict)

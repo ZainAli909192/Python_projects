@@ -2,9 +2,9 @@
 # Syntax:  variable={"keys":"values","keys":"values"}
 dict={"zain":"ali",
       "set":"Wel defined object "}
-# print(dict)
-# key=input("Enter key: ")
-# print(dict[key])
+print(dict)
+key=input("Enter key: ")
+print(dict[key])
 
 dict.clear()
 dic=dict.keys()         #to get keys of dictionary

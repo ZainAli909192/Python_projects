@@ -16,7 +16,7 @@ phone_off_image = PhotoImage(file="phone_off2.png")
 
 # Create a label widget to display the "phone off" image
 phone_off_label = Label(window, image=phone_off_image)
-phone_off_label.place(relx=0.28, rely=0.75, width=100, height=100)
+phone_off_label.place(relx=0.28, rely=0.75, width=100, height=105)
 
 # Create a label for "Silent your phone" text
 # poster_label2 = Label(window, text="Poster", font=("Arial",25), bg="black", fg="white")

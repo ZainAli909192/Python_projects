@@ -26,10 +26,10 @@ arabic_label = Label(window, text="ما نقصت صدقة من مال",bg="black
 # Place the label just after the image
 arabic_label.place(relx=0.37, rely=0.14)
 
-arabic_label = Label(window, text="The messenger of Allah (saw) said:",bg="black", fg="white", font=("Arial",28))
+arabic_label = Label(window, text="The messenger of Allah (saw) said:",bg="black", fg="white", font=("Arial",29))
 # Place the label just after the image
 arabic_label.place(relx=0.2, rely=0.28)
-arabic_label = Label(window , text="\" Charity does not decrease wealth.\"",bg="black", fg="white", font=("Arial",35))
+arabic_label = Label(window , text="\" Charity does not decrease wealth.\"",bg="black", fg="white", font=("Arial",38))
 # Place the label just after the image
 arabic_label.place(relx=0.2, rely=0.36)
 

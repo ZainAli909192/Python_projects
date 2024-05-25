@@ -18,9 +18,9 @@ phone_off_label = Label(window, image=phone_off_image)
 # phone_off_label.place(relx=0.3, rely=0.15, width=400, height=350)
 
 # Create a label for "Silent your phone" text
-silent_label = Label(window, text="Dua after Athan",width="20", bg="#b4bca8",font=("Arial",30))
+silent_label = Label(window, text="Dua after Athan",width="20", bg="#b4bca8",font=("Arial",35))
 # Place the label just after the image
-silent_label.place(relx=0.35, rely=0.03, anchor="nw")
+silent_label.place(relx=0.35, rely=0.04, anchor="nw")
 
 arabic_label = Label(window, text="دعاء الأذان",bg="#d0cc74", width="20",font=("Arial",30))
 # Place the label just after the image

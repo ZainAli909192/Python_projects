@@ -3,6 +3,7 @@ import random
 class Room:
     def __init__(self, name, description, exits, items=None):
         self.name = name
+        self.age=1
         self.description = description
         self.exits = exits
         self.items = items if items else []

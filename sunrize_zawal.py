@@ -59,7 +59,7 @@ def reset_screen():
     subprocess.run(["python", "main.py"])
 
 # Simulate the passage of time
-time_left_seconds = 10 * 60  # 10 minutes in seconds
+time_left_seconds = 10 * 63  # 10 minutes in seconds
 def switch_to_main():
     subprocess.run(["python", "main.py"])
     window.destroy()

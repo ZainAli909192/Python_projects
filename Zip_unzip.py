@@ -45,7 +45,7 @@ zip_button.pack(pady=10)
 
 # Extract location entry
 extract_label = tk.Label(root, text="Select Extract Location:")
-extract_label.pack(pady=10)
+extract_label.pack(pady=12)
 extract_entry = tk.Entry(root, width=40)
 extract_entry.pack(pady=5)
 extract_button = tk.Button(root, text="Browse", command=get_extract_location)
